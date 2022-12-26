@@ -1,5 +1,5 @@
 # Telematika
-telenatika 2022
+telematika 2022
 
 README
 
