@@ -1,18 +1,5 @@
 
-// grupni program OPP
-
-//OPIS - 20230111
-
-//Program započinje sa prvim danom, od korisnika se traži da unese 
-//količinu današnjeg unosa hrane u (kcal), te vode u (čašama, -čaša=300ml). 
-//Programu su zadane varijable za preporučeni prosječni dnevni unos za odraslu osobu 
-//težine 70-100kg i visine 170-190cm, kao kcal-min, kcal-max, voda-min, voda-max. 
-//Korisniku se po uspješnom unosu podataka ispisuje poruka za prvi dan u obliku: 
-//"(vaš današnji unos je: "kcal_unos / kcal-min - kcal-max" preporučenog, današnji unos je premalen/prevelik/dovoljan. - za kcal i vodu)". 
-//Korisnika se zatim traži da unese želi li nastaviti na drugi dan ili završiti sa programom, 
-//prelaskom na drugi dan program se vraća na početak, 
-//na novo traži podatake o unosu hrane i vode, te zatim ispisuje sve podatke za drugi dan. 
-//Kada korisnik odabere kraj programa, ispisuje se još jedna poruka koja daje sumu svih unosa hrane i vode za sve protekle dane.
+// test_ivor branch kopija za exp
 
 
 #include <stdio.h>
@@ -20,8 +7,8 @@
 int kcal, visina, godine, sum_kcal = 0;
 float voda, tezina, bmr, kcal_min, kcal_max, voda_min, voda_max, vodal, sum_voda = 0;
 char spol, odgovor;
-int main(void)
-{
+
+int main(void){
 
 
         printf("Unesite svoju visinu \n");
@@ -44,7 +31,7 @@ int main(void)
         }
         vodal = voda / 1000;
 
-        printf("Unesite kolicinu kalorije unesenih danas \n");
+        printf("Unesite kolicinu kalorija unesenih danas \n");
         scanf("%d", &kcal);
         sum_kcal += kcal;
 
