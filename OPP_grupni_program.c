@@ -17,11 +17,12 @@
 
 #include <stdio.h>
 #include <math.h>
+int kcal, visina, godine, sum_kcal = 0;
+float voda, tezina, bmr, kcal_min, kcal_max, voda_min, voda_max, vodal, sum_voda = 0;
+char spol, odgovor;
 int main(void)
 {
-    int kcal, visina, godine;
-    float voda, tezina, bmr, kcal_min, kcal_max, casa_min, casa_max, voda_min, voda_max, vodal;
-    char spol;
+
     
         printf("Unesite svoju visinu \n");
         scanf_s("%d", &visina);
@@ -31,10 +32,6 @@ int main(void)
         scanf_s("%d", &godine);
         printf("Unesite svoj spol (M/Z) \n");
         scanf_s(" %c", &spol, sizeof(spol));
-        printf("Unesite kolicinu kalorije unesenih danas \n");
-        scanf_s("%d", &kcal);
-        printf("Unesite kolicinu vode unesene danas u ml \n");
-        scanf_s("%f", &voda);
             voda_min = tezina * 0.033;
             voda_max = tezina * 0.066;
         if (spol == 'M') {
@@ -46,6 +43,63 @@ int main(void)
             kcal_max = (9.247 * tezina + 3.098 * visina - 4.330 * godine + 447.593)*1.5;
         }
         vodal = voda / 1000;
+
+        printf("Unesite kolicinu kalorije unesenih danas \n");
+        scanf_s("%d", &kcal);
+        sum_kcal += kcal;
+
+        printf("Unesite kolicinu vode unesene danas u ml \n");
+        scanf_s("%f", &voda);
+        vodal = voda / 1000;
+        sum_voda += vodal;
+
+        if (kcal < kcal_min)
+            printf("Vas danasnji unos kalrija je premalen \n");
+        else if (kcal > kcal_min && kcal < kcal_max)
+            printf("Vas danasnji unos kalorija je dovoljan \n");
+        else if (kcal > kcal_max)
+            printf("Vas danasnji unos kalorija je prevelik \n");
+
+        if (vodal < voda_min)
+            printf("Vas danasnji unos vode je premalen \n\n");
+        else if (vodal >= voda_min && vodal <= voda_max)
+            printf("Vas danasnji unos vode je dovoljan \n\n");
+        else if (vodal >= voda_max)
+            printf("Vas danasnji unos vode je prevelik \n\n");
+        printf("Minimalni i  maksimalni unos kalorija mora biti %.2f i %.2f \n", kcal_min, kcal_max);
+        printf("Minimalni i maksimalni unos vode mora biti %.2f l i %.2f l\n\n", voda_min, voda_max);
+
+        printf("Zelite li unijeti podatke za sljedeći dan napisite d \n");
+        scanf_s(" %c", &odgovor, sizeof(odgovor));
+
+        while (odgovor == 'd') {
+            printf("Unesite kolicinu kalorije unesenih danas \n");
+            scanf_s("%d", &kcal);
+            sum_kcal += kcal;
+
+            printf("Unesite kolicinu vode unesene danas u ml \n");
+            scanf_s("%f", &voda);
+            vodal = voda / 1000;
+            sum_voda += vodal;
+            if (kcal < kcal_min)
+                printf("Vas danasnji unos kalrija je premalen \n");
+            else if (kcal > kcal_min && kcal < kcal_max)
+                printf("Vas danasnji unos kalorija je dovoljan \n");
+            else if (kcal > kcal_max)
+                printf("Vas danasnji unos kalorija je prevelik \n");
+
+            if (vodal < voda_min)
+                printf("Vas danasnji unos vode je premalen \n\n");
+            else if (vodal >= voda_min && vodal <= voda_max)
+                printf("Vas danasnji unos vode je dovoljan \n\n");
+            else if (vodal >= voda_max)
+                printf("Vas danasnji unos vode je prevelik \n\n");
+            printf("Minimalni i  maksimalni unos kalorija mora biti %.2f i %.2f \n", kcal_min, kcal_max);
+            printf("Minimalni i maksimalni unos vode mora biti %.2f l i %.2f l\n\n", voda_min, voda_max);
+            printf("Zelite li unijeti podatke za sljedeći dan napisite d \n");
+            scanf_s(" %c", &odgovor, sizeof(odgovor));
+        }
+        
         if (kcal < kcal_min)
             printf("Vas danasnji unos kalrija je premalen \n");
         else if (kcal > kcal_min && kcal < kcal_max)
@@ -55,16 +109,17 @@ int main(void)
 
         if (vodal < voda_min)
             printf("Vas danasnji unos vode je premalen \n");
-        else if (vodal > voda_min && vodal < voda_max)
+        else if (vodal >= voda_min && vodal <= voda_max)
             printf("Vas danasnji unos vode je dovoljan \n");
-        else if (vodal > voda_max)
+        else if (vodal >= voda_max)
             printf("Vas danasnji unos vode je prevelik \n");
         printf("Minimalni i  maksimalni unos kalorija mora biti %.2f i %.2f \n", kcal_min, kcal_max);
-        printf("Minimalni i maksimalni unos vode mora biti %.2f l i %.2f l\n", voda_min, voda_max);
+        printf("Minimalni i maksimalni unos vode mora biti %.2f l i %.2f l\n\n", voda_min, voda_max);
+        printf("Vas konacni broj kalorija i unosa vode je %d i %.2f l \n", sum_kcal, sum_voda);
+ 
 
 
     
     return 0;
 }
-
 
