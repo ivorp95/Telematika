@@ -4,12 +4,13 @@
 
 #include <stdio.h>
 #include <math.h>
-int kcal, visina, godine, sum_kcal = 0;
-float voda, tezina, bmr, kcal_min, kcal_max, voda_min, voda_max, vodal, sum_voda = 0;
-char spol, odgovor;
+
 
 int main(void){
 
+int kcal, visina, godine, sum_kcal = 0;
+float voda, tezina, bmr, kcal_min, kcal_max, voda_min, voda_max, vodal, sum_voda = 0;
+char spol, odgovor;
 
         printf("Unesite svoju visinu \n");
         scanf("%d", &visina);
