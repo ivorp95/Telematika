@@ -13,7 +13,7 @@ int main()
 {
     
 
-    int i;
+    int i=0;
     int kcal, godine, sum_kcal = 0;
     float voda, tezina, visina, visina_m, kcal_min, kcal_max, voda_min, voda_max, bmi, sum_voda = 0;
     char spol_m[]="m", spol_z[]="z", spol_unos[2];
