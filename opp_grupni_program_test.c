@@ -20,6 +20,7 @@ int main()
     char polje_nastavak[]= "nastavak";
     char polje_kraj[]= "kraj";
 
+                                                //pohrana unesenih podataka korisnika
 
     printf("\n Unesite svoju visinu u cm : ");
     scanf("%f", &visina);
@@ -36,20 +37,20 @@ int main()
     visina_m = visina/100;
 
     bmi=tezina / (visina_m*visina_m);
-    //printf("%.2f",bmi);
-        //BMI za ispis na kraju
+                                         //BMI izracun za ispis na kraju
 
-    if (strcmp(spol_unos,spol_m)==0) {              //izracun muskarci
+    if (strcmp(spol_unos,spol_m)==0) {                               //izracun muskarci
             kcal_min = 10 * tezina + 6.25 * visina - 5 * godine + 5;
             kcal_max = (13.397 * tezina + 4.799 * visina - 5.677 * godine + 88.362)*1.5;
         }
-    else if (strcmp(spol_unos,spol_z)==0) {           //izracun zene
+    else if (strcmp(spol_unos,spol_z)==0) {                            //izracun zene
             kcal_min = 10 * tezina + 6.25 * visina - 5 * godine - 161;
             kcal_max = (9.247 * tezina + 3.098 * visina - 4.330 * godine + 447.593)*1.5;
         }
-        // unos osnovnih podataka i izrcun min i max vrijednosti
+                                            // unos osnovnih podataka i izracun min i max vrijednosti
 
 
+                                            //do while petlja za ponavljanje po danima dok je odgovor nastavak
     do{
         printf("\n\n\n Unesite kolicinu kalorija u kcal, unesenih danas : ");
         scanf("%d", &kcal);
@@ -82,7 +83,7 @@ int main()
     }
     while(strcmp(polje_nastavak,polje_odgovor)==0);
     
-    // print podataka
+                                                        // print podataka
 
 
 
@@ -97,10 +98,10 @@ printf("\n BMI manji od 30, vi ste prekomjerene tezine !");
 else
 printf("\n BMI veci od 30, vi ste pretili, preporucujemo vam vise tjelesne aktivnosti !");
 
-//ispis BMI i poruka
+                                                        //ispis BMI i poruka
 
 printf("\n\n\n\n Vas ukupni unos kalorija kroz trajanje ovog programa iznosi: %d kcal \n\n Vas ukupni unos vode iznosi: %.2f L",sum_kcal, sum_voda);
- 
+
 
 
     
