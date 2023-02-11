@@ -13,6 +13,7 @@ int main()
 {
     
 
+    int i = 1;
     int kcal, godine, sum_kcal = 0;
     float voda, tezina, visina, visina_m, kcal_min, kcal_max, voda_min, voda_max, bmi, sum_voda = 0;
     char spol_m[]="m", spol_z[]="z", spol_unos[2];
@@ -80,6 +81,8 @@ int main()
 
         printf("\n\n\n\n Zelite li unijeti podatke za sljedeći dan napisite '%s' \n Za zavrsetak programa napisite '%s' \n", polje_nastavak, polje_kraj);
         scanf(" %20s",polje_odgovor);
+
+        i++;
     }
     while(strcmp(polje_nastavak,polje_odgovor)==0);
     
@@ -100,7 +103,7 @@ printf("\n BMI veci od 30, vi ste pretili, preporucujemo vam vise tjelesne aktiv
 
                                                         //ispis BMI i poruka
 
-printf("\n\n\n\n Vas ukupni unos kalorija kroz trajanje ovog programa iznosi: %d kcal \n\n Vas ukupni unos vode iznosi: %.2f L",sum_kcal, sum_voda);
+printf("\n\n\n\n Vas ukupni unos kalorija kroz %d dana iznosi: %d kcal \n\n Vas ukupni unos vode kroz %d dana iznosi: %.2f L", i, sum_kcal, i, sum_voda);
 
 
 
