@@ -21,6 +21,8 @@ int main()
     char polje_nastavak[]= "nastavak";
     char polje_kraj[]= "kraj";
 
+    printf("\n Dobro dosli u nas grupni program !!!\n\n Program izradili:\n\n Emma Sikic\n Filip Maksimovic\n Matej Malnar\n Demien Bajur\n Ivor Pangos\n\n\n");
+
                                                 //pohrana unesenih podataka korisnika
 
     printf("\n Unesite svoju visinu u cm : ");
