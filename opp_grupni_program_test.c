@@ -11,7 +11,7 @@
 int main()
 
 {
-    
+
 
     int i=0;
     int kcal, godine, sum_kcal = 0;
@@ -81,7 +81,7 @@ int main()
         printf("\n\n\n\n Vas minimalni dnevni unos kalorija trebao bi biti: %.2f kcal, a minimalni dnevni unos vode: %.2f L .", kcal_min, voda_min);
         printf("\n\n Vas maksimalni dnevni unos kalorija trebao bi biti: %.2f kcal, a maksimalni dnevni unos vode: %.2f L .", kcal_max, voda_max);
 
-        printf("\n\n\n\n Zelite li unijeti podatke za sljedeći dan napisite '%s' \n Za zavrsetak programa napisite '%s' \n", polje_nastavak, polje_kraj);
+        printf("\n\n\n\n Zelite li unijeti podatke za sljedeci dan napisite '%s' \n Za zavrsetak programa napisite '%s' \n", polje_nastavak, polje_kraj);
         scanf(" %20s",polje_odgovor);
 
         i++;
@@ -105,7 +105,7 @@ printf("\n BMI veci od 30, vi ste pretili, preporucujemo vam vise tjelesne aktiv
 
                                                         //ispis BMI i poruka
 
-printf("\n\n\n\n Vas ukupni unos kalorija kroz %d dana iznosi: %d kcal \n\n Vas ukupni unos vode kroz %d dana iznosi: %.2f L", i, sum_kcal, i, sum_voda);
+printf("\n\n\n\n Vas ukupni unos kalorija kroz %d dana iznosi: %d kcal \n\n Vas ukupni unos vode kroz %d dana iznosi: %.2f L\n", i, sum_kcal, i, sum_voda);
 
 
 

@@ -117,7 +117,7 @@ printf("\n BMI veci od 30, vi ste pretili, preporucujemo vam vise tjelesne aktiv
 
                                                         //ispis BMI i poruka
 
-printf("\n\n\n\n Vas ukupni unos kalorija kroz %d dana iznosi: %d kcal \n\n Vas ukupni unos vode kroz %d dana iznosi: %.2f L", i, sum_kcal, i, sum_voda);
+printf("\n\n\n\n Vas ukupni unos kalorija kroz %d dana iznosi: %d kcal \n\n Vas ukupni unos vode kroz %d dana iznosi: %.2f L\n", i, sum_kcal, i, sum_voda);
 
 
 
