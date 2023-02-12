@@ -93,7 +93,7 @@ int main()
         printf("\n\n\n\n Vas minimalni dnevni unos kalorija trebao bi biti: %.2f kcal, a minimalni dnevni unos vode: %.2f L .", kcal_min, voda_min);
         printf("\n\n Vas maksimalni dnevni unos kalorija trebao bi biti: %.2f kcal, a maksimalni dnevni unos vode: %.2f L .", kcal_max, voda_max);
 
-        printf("\n\n\n\n Zelite li unijeti podatke za sljedeći dan napisite '%s' \n Za zavrsetak programa napisite '%s' \n", polje_nastavak, polje_kraj);
+        printf("\n\n\n\n Zelite li unijeti podatke za sljedeci dan napisite '%s' \n Za zavrsetak programa napisite '%s' \n", polje_nastavak, polje_kraj);
         scanf_s(" %20s",polje_odgovor,21);
 
         i++;
