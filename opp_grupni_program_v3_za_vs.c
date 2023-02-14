@@ -18,6 +18,7 @@
 #include <math.h>
 #include <string.h>
 
+float bmif(float vis, float tez);  // bmi funkcija
 
 
 int main()
@@ -49,10 +50,10 @@ int main()
     voda_min = tezina * 0.02;
     voda_max = tezina * 0.045;
 
-    visina_m = visina/100;
+   //bmi=tezina / (visina_m*visina_m);
 
-    bmi=tezina / (visina_m*visina_m);
-                                         //BMI izracun za ispis na kraju
+    bmi = bmif(visina_m, tezina);
+                                         //BMI funkcija izracun za ispis na kraju
 
     if (strcmp(spol_unos,spol_m)==0) {                               //izracun muskarci
             kcal_min = 10 * tezina + 6.25 * visina - 5 * godine + 5;
@@ -125,3 +126,11 @@ printf("\n\n\n\n Vas ukupni unos kalorija kroz %d dana iznosi: %d kcal \n\n Vas 
     return 0;
 }
 
+
+float bmif(float vis, float tez){
+    float bmi_f;
+
+    bmi_f = tez / (vis*vis);
+
+    return bmi_f;
+}
