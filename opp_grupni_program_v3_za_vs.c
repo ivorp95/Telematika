@@ -49,7 +49,8 @@ int main()
 
     voda_min = tezina * 0.02;
     voda_max = tezina * 0.045;
-
+    visina_m = visina/100;
+    
    //bmi=tezina / (visina_m*visina_m);
 
     bmi = bmif(visina_m, tezina);
