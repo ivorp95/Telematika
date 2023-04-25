@@ -23,15 +23,15 @@ char spol, odgovor;
 int main(void)
 {
 
-    
+
         printf("Unesite svoju visinu \n");
-        scanf_s("%d", &visina);
+        scanf("%d", &visina);
         printf("Unesite svoju tezinu \n");
-        scanf_s("%f", &tezina);
+        scanf("%f", &tezina);
         printf("Koliko imate godina \n");
-        scanf_s("%d", &godine);
+        scanf("%d", &godine);
         printf("Unesite svoj spol (M/Z) \n");
-        scanf_s(" %c", &spol, sizeof(spol));
+        scanf(" %c", &spol, sizeof(spol));
             voda_min = tezina * 0.033;
             voda_max = tezina * 0.066;
         if (spol == 'M') {
@@ -45,11 +45,11 @@ int main(void)
         vodal = voda / 1000;
 
         printf("Unesite kolicinu kalorije unesenih danas \n");
-        scanf_s("%d", &kcal);
+        scanf("%d", &kcal);
         sum_kcal += kcal;
 
         printf("Unesite kolicinu vode unesene danas u ml \n");
-        scanf_s("%f", &voda);
+        scanf("%f", &voda);
         vodal = voda / 1000;
         sum_voda += vodal;
 
@@ -70,15 +70,15 @@ int main(void)
         printf("Minimalni i maksimalni unos vode mora biti %.2f l i %.2f l\n\n", voda_min, voda_max);
 
         printf("Zelite li unijeti podatke za sljedeći dan napisite d \n");
-        scanf_s(" %c", &odgovor, sizeof(odgovor));
+        scanf(" %c", &odgovor, sizeof(odgovor));
 
         while (odgovor == 'd') {
             printf("Unesite kolicinu kalorije unesenih danas \n");
-            scanf_s("%d", &kcal);
+            scanf("%d", &kcal);
             sum_kcal += kcal;
 
             printf("Unesite kolicinu vode unesene danas u ml \n");
-            scanf_s("%f", &voda);
+            scanf("%f", &voda);
             vodal = voda / 1000;
             sum_voda += vodal;
             if (kcal < kcal_min)
@@ -97,7 +97,7 @@ int main(void)
             printf("Minimalni i  maksimalni unos kalorija mora biti %.2f i %.2f \n", kcal_min, kcal_max);
             printf("Minimalni i maksimalni unos vode mora biti %.2f l i %.2f l\n\n", voda_min, voda_max);
             printf("Zelite li unijeti podatke za sljedeći dan napisite d \n");
-            scanf_s(" %c", &odgovor, sizeof(odgovor));
+            scanf(" %c", &odgovor, sizeof(odgovor));
         }
         
         if (kcal < kcal_min)
