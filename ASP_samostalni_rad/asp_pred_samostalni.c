@@ -53,7 +53,7 @@ void ispisi(RedFilmova* pred);
 void obrisi(RedFilmova* pred);
 void izmijeni(Film izmijenjeniElement, Film originalniElement, RedFilmova* pred);
 
-CelijaFilm* pronadji_char(char* trazeni_string_podatak, RedFilmova* pred);
+CelijaFilm* pronadji_string(char* trazeni_string_podatak, RedFilmova* pred);
 CelijaFilm* pronadji_int(char* trazeni_int_podatak, RedFilmova* pred);
 
 
@@ -71,7 +71,7 @@ int main (){
     printf("e. Pretraga podataka po Imenu filma ili Imenu/Prezimenu redatelja.\n");
 	printf("f. Pretraga podataka po Godini izdavanja filma ili Trajanju filma u minutama.\n");
 	printf("g. Zavrsetak programa.\n");
-    printf(" Unesite svoj odabir: ");
+    printf("\nUnesite svoj odabir: ");
     scanf("%c",&menu_opcija);
 
         switch(menu_opcija){
