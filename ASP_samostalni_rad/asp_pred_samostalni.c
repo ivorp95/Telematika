@@ -57,53 +57,48 @@ CelijaFilm* pronadji_char(char* trazeni_string_podatak, RedFilmova* pred);
 CelijaFilm* pronadji_int(char* trazeni_int_podatak, RedFilmova* pred);
 
 
-char get_intials(void){
-    char initails;
-    printf("Please Enter Initials: ");
-    scanf("\n%c",&initails);
-    return initails;
-}
-
 int main (){
-    char menu_option,initials;
-    int difficulty;
+    char menu_opcija;
 
-    printf("        EDUCATIONAL MATH PROGRAM!!!\n");
-    printf("------------------------------------------\n\n");
-
+    printf("\nProgram za unos filmova preko celija u strukturu reda, unose se podatci o:\nNazivu filma na engleskom, Prezimenu Redatelja, Imenu redatelja, Godini izdavanja filma, Trajanju filma u minutama.\n");
 
     do{
-    printf("Main Menu\n");
-    printf("a. Learn about how to use program.\n");
-    printf("b. Enter your initials (3 individual letters).\n");
-    printf("c. Difficulty Selection.\n");
-    printf("d. Start a new sequence of problems.\n");
-    printf("e. Save and quit.\n");
-    printf(" Please enter an option from the main menu: ");
-    scanf("%c",&menu_option);
+    printf("\nGLAVNI IZBORNIK:\n");
+    printf("a. Unos podataka o novom filmu.\n");
+    printf("b. Ispis svih podataka trenutno pohranjenih u redu.\n");
+    printf("c. Brisanje podataka iz reda.\n");
+    printf("d. Izmjena postojecih podataka u redu.\n");
+    printf("e. Pretraga podataka po Imenu filma ili Imenu/Prezimenu redatelja.\n");
+	printf("f. Pretraga podataka po Godini izdavanja filma ili Trajanju filma u minutama.\n");
+	printf("g. Zavrsetak programa.\n");
+    printf(" Unesite svoj odabir: ");
+    scanf("%c",&menu_opcija);
 
-    switch(menu_option){
+        switch(menu_opcija){
 
-    case 'a':
-        //Learn_to_use();
+        case 'a':
+            break;
+        case 'b':
+            break;
+        case 'c':
+            break;
+        case 'd':
+            break;
+        case 'e':
+            break;
+		case 'f':
+			break;
 
-        break;
-    case 'b':
-        initials=get_intials();
-        printf( "input initials:%c\n", initials) ;
-        break;
-    case'c':
-        printf("case c");
-        //difficulty = get_difficulty();
-        break;
-    case'd':
-        break;
-    case'e':
-        break;
-    default:
-        printf("invalid input");
+        default:
+            printf("invalid input");
             break;
     }
 
-    }while(menu_option !='e');
+    }while(menu_opcija !='g');
+
+
+
+    return 0;
 }
+
+
