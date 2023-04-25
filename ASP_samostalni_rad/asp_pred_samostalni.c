@@ -6,7 +6,7 @@ Potrebno je izraditi program pisan u C jeziku u kojem se podaci (minimalno 3 kom
 Odabir načina implementacije reda (preko polja ili preko pokazivača, tj. ćelija), kao i vrste podataka za pohranu (npr. zbirka filmova, knjiga, cipela, ...) je na vama, tj. odabir je slobodan.
 
 Program treba imati početni izbornik u kojem korisnik odabire operaciju koju želi izvršiti:
-- unos novog zapisa,
+- unos novog zapisa,   
 - ispis svih zapisa,
 - brisanje postojećeg zapisa,
 - izmjenu postojećeg zapisa,
@@ -24,35 +24,39 @@ C kod projektnog zadatka je potrebno predati do ponedjeljka 05.06.2023. u 08:00 
 #include <math.h>
 
 
-typedef struct
-{
-	char ime[21];
-	char spol;
-	int godRodj;
-} Natjecatelj;
+typedef struct {
+char title_eng[31];      
+char director_lname[30]; 
+char director_fname[30]; 
+int publication_year;    
+int duration;            
+} Film;
 
 typedef struct Celija
 {
-	Natjecatelj element;
-	struct Celija* psljedeca;
-} CelijaNatjecatelj;
+	Film element;
+	struct Celija* pnext;
+} CelijaFilm;
 
 
 typedef struct
 {
-	CelijaNatjecatelj* pizlaz;
-	CelijaNatjecatelj* pulaz;
-} RedNatjecatelj;
+	CelijaFilm* pexit;
+	CelijaFilm* pentry;
+} RedFilmova;
 
 
-void unosNatjecatelja(Natjecatelj* pnatjecatelj);
+void unos_filma(Film* pfilm);
 
-void ubaci(Natjecatelj noviElement, RedNatjecatelj* pred);
-void ispisi(RedNatjecatelj* pred);
-void obrisi(RedNatjecatelj* pred);
-void izmijeni(Natjecatelj izmijenjeniElement, Natjecatelj originalniElement, RedNatjecatelj* pred);
+void ubaci(Film noviElement, RedFilmova* pred);
+void ispisi(RedFilmova* pred);
+void obrisi(RedFilmova* pred);
+void izmijeni(Film izmijenjeniElement, Film originalniElement, RedFilmova* pred);
 
-CelijaNatjecatelj* pronadjiAdresu_ime(char* imeNatjecatelja, RedNatjecatelj* pred);
+CelijaFilm* pronadji_char(char* trazeni_string_podatak, RedFilmova* pred);
+CelijaFilm* pronadji_int(char* trazeni_int_podatak, RedFilmova* pred);
+
+
 
 int main (){
 

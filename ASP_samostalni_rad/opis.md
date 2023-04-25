@@ -3,7 +3,10 @@ OPIS PROGRAMA -  Moja kolekcija UHD 4k Bluray filmova
 
 
 
-funkcija za izbornik (unos, ispis, brisanje, izmjena, pretrazivanje)
+izbornik u main-u (unos, ispis, brisanje, izmjena, pretrazivanje)
+
+
+
 funkcija za pretrazivanje po imenu/godini/redatelju/trajanju(<>),?
 funkcija za unos podataka u celiju
 funkcija za ubacivanje celije u red
