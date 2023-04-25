@@ -57,10 +57,53 @@ CelijaFilm* pronadji_char(char* trazeni_string_podatak, RedFilmova* pred);
 CelijaFilm* pronadji_int(char* trazeni_int_podatak, RedFilmova* pred);
 
 
+char get_intials(void){
+    char initails;
+    printf("Please Enter Initials: ");
+    scanf("\n%c",&initails);
+    return initails;
+}
 
 int main (){
+    char menu_option,initials;
+    int difficulty;
+
+    printf("        EDUCATIONAL MATH PROGRAM!!!\n");
+    printf("------------------------------------------\n\n");
 
 
+    do{
+    printf("Main Menu\n");
+    printf("a. Learn about how to use program.\n");
+    printf("b. Enter your initials (3 individual letters).\n");
+    printf("c. Difficulty Selection.\n");
+    printf("d. Start a new sequence of problems.\n");
+    printf("e. Save and quit.\n");
+    printf(" Please enter an option from the main menu: ");
+    scanf("%c",&menu_option);
 
-    return 0;
+    switch(menu_option){
+
+    case 'a':
+        //Learn_to_use();
+
+        break;
+    case 'b':
+        initials=get_intials();
+        printf( "input initials:%c\n", initials) ;
+        break;
+    case'c':
+        printf("case c");
+        //difficulty = get_difficulty();
+        break;
+    case'd':
+        break;
+    case'e':
+        break;
+    default:
+        printf("invalid input");
+            break;
+    }
+
+    }while(menu_option !='e');
 }

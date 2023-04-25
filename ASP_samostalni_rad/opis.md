@@ -7,6 +7,7 @@ izbornik u main-u (unos, ispis, brisanje, izmjena, pretrazivanje)
 
 
 
+
 funkcija za pretrazivanje po imenu/godini/redatelju/trajanju(<>),?
 funkcija za unos podataka u celiju
 funkcija za ubacivanje celije u red
