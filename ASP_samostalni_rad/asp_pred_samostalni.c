@@ -22,7 +22,7 @@ C kod projektnog zadatka je potrebno predati do ponedjeljka 05.06.2023. u 08:00 
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
-
+#include <unistd.h>
 
 typedef struct {
 char title_eng[31];      
@@ -63,14 +63,17 @@ int main (){
     printf("\nProgram za unos filmova preko celija u strukturu reda, unose se podatci o:\nNazivu filma na engleskom, Prezimenu Redatelja, Imenu redatelja, Godini izdavanja filma, Trajanju filma u minutama.\n");
 
     do{
-    printf("\nGLAVNI IZBORNIK:\n");
+    sleep(1);
+    printf("\nGLAVNI IZBORNIK:\n\n");
+    sleep(1);
     printf("a. Unos podataka o novom filmu.\n");
     printf("b. Ispis svih podataka trenutno pohranjenih u redu.\n");
     printf("c. Brisanje podataka iz reda.\n");
     printf("d. Izmjena postojecih podataka u redu.\n");
     printf("e. Pretraga podataka po Imenu filma ili Imenu/Prezimenu redatelja.\n");
 	printf("f. Pretraga podataka po Godini izdavanja filma ili Trajanju filma u minutama.\n");
-	printf("g. Zavrsetak programa.\n");
+    printf("g. Zavrsetak programa.\n");
+    sleep(2);
     printf("\nUnesite svoj odabir: ");
     scanf("%c",&menu_opcija);
 
@@ -88,9 +91,11 @@ int main (){
             break;
 		case 'f':
 			break;
+        case 'g':
+            break;
 
         default:
-            printf("invalid input");
+            printf("\nKrivo slovo odabira, molim ponovite odabir kroz izbornik.\n");
             break;
     }
 
