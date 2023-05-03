@@ -33,8 +33,9 @@ void ispisi(RedFilmova* pred);
 void obrisi(RedFilmova* pred);
 void izmijeni(Film izmijenjeniElement, Film originalniElement, RedFilmova* pred);
 
-CelijaFilm* pronadji_string(char* trazeni_string_podatak, RedFilmova* pred);
-CelijaFilm* pronadji_int(char* trazeni_int_podatak, RedFilmova* pred);
+CelijaFilm* pronadji_string(char* trazeni_string_podatak, RedFilmova* pred); //poo koojem parametru se pretrazuje. funkcija strcasecmp
+
+CelijaFilm* pronadji_int(char* trazeni_int_podatak, RedFilmova* pred); //po kojem parametru. za trajanje treba interval
 
 
 int main (){
@@ -84,7 +85,7 @@ int main (){
 
 
 
-khgkhgkhg;
+
 
     return 0;
 }
