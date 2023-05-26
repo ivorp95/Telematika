@@ -15,14 +15,14 @@ int duration;
 typedef struct Celija
 {
 	Film element;
-	struct Celija* pnext;
+	struct Celija* psljedeci;
 } CelijaFilm;
 
 
 typedef struct
 {
-	CelijaFilm* pexit;
-	CelijaFilm* pentry;
+	CelijaFilm* pulaz;
+	CelijaFilm* pizlaz;
 } RedFilmova;
 
 
