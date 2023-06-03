@@ -5,26 +5,27 @@
 #include <unistd.h>
 
 typedef struct {
-char title_eng[31];      
-char director_lname[30]; 
-char director_fname[30]; 
-int publication_year;    
-int duration;            
+char nazivFilma[31];      
+char directorPrezime[30]; 
+char directorIme[30]; 
+int godina_izlaska;    
+int trajanje;            
 } Film;
 
 typedef struct Celija
 {
 	Film element;
-	struct Celija* psljedeci;
-} CelijaFilm;
+	struct Celija* sljedeca;
+} CelijaReda;
 
 
 typedef struct
 {
-	CelijaFilm* pulaz;
-	CelijaFilm* pizlaz;
+	CelijaReda* izlaz;
+	CelijaReda* ulaz;
 } RedFilmova;
 
+//test pull push
 
 void unos_filma(Film* pfilm);
 
@@ -33,12 +34,14 @@ void ispisi(RedFilmova* pred);
 void obrisi(RedFilmova* pred);
 void izmijeni(Film izmijenjeniElement, Film originalniElement, RedFilmova* pred);
 
-CelijaFilm* pronadji_string(char* trazeni_string_podatak, RedFilmova* pred); //poo koojem parametru se pretrazuje. funkcija strcasecmp
+CelijaReda* pronadji_string(char* trazeni_string_podatak, RedFilmova* pred); //poo koojem parametru se pretrazuje. funkcija strcasecmp
 
-CelijaFilm* pronadji_int(char* trazeni_int_podatak, RedFilmova* pred); //po kojem parametru. za trajanje treba interval
+CelijaReda* pronadji_int(char* trazeni_int_podatak, RedFilmova* pred); //po kojem parametru. za trajanje treba interval
 
 
 int main (){
+    RedFilmova mojRed;
+    mojRed.izlaz=mojRed.ulaz= (CelijaReda*) malloc (sizeof(CelijaReda));
     char menu_opcija;
 
     printf("\nProgram za unos filmova preko celija u strukturu reda, unose se podatci o:\nNazivu filma na engleskom, Prezimenu Redatelja, Imenu redatelja, Godini izdavanja filma, Trajanju filma u minutama.\n");
@@ -91,3 +94,34 @@ int main (){
 }
 
 
+void ubaci (Film x, RedFilmova *pokRed) {
+	pokRed->ulaz->sljedeca = (CelijaReda*) malloc (sizeof(CelijaReda));
+	pokRed->ulaz = pokRed->ulaz->sljedeca;
+	pokRed->ulaz->element = x;
+	pokRed->ulaz->sljedeca = NULL;
+}
+ 
+void ispis (RedFilmova *pokRed) {
+	CelijaReda *celija;
+	if (pokRed->izlaz != pokRed->ulaz){
+		celija = pokRed->izlaz;
+printf("\n\nIspis reda: \n\n");
+		while (celija->sljedeca!=NULL)
+		{
+			celija = celija->sljedeca;
+			printf("% ", celija->element);
+			
+		}	
+	}	
+} 
+ 
+void obrisi (RedFilmova *pokRed) {
+	CelijaReda *privremeno;
+	if (pokRed->ulaz == pokRed->izlaz)   
+		printf("Red Filmova je prazan");
+	else {
+		privremeno = pokRed->izlaz;
+		pokRed->izlaz = pokRed->izlaz->sljedeca;
+		free(privremeno);
+	}
+}
