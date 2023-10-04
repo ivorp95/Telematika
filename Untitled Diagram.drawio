@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-04T18:35:23.028Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="xzlbMrdKkkf-6e6nk8KM" version="22.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-04T18:40:38.264Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="Fuq-AMlWdtjYydBuPJqA" version="22.0.2" type="github">
   <diagram name="Page-1" id="AN3knQ1uPVFw2JtmK8g8">
     <mxGraphModel dx="630" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -27,7 +27,7 @@
         <mxCell id="YmAx3Wk3M9Wkv32GOvmK-11" value="Podsustav praćenje radnih sati evidentira radne sate&lt;br&gt;koje je zaposlenik obavio. Zaposlenik odrađuje radne&lt;br&gt;sate. Svaki radni sat je odrađen od nekog zaposlenika.&lt;br&gt;Zaposlenik se opisuje sa imenom, prezimenom,&lt;br&gt;adresom i mjestom, dok se radni sati opisuju&lt;br&gt;datumom, brojem sati i opisom posla" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="20" y="450" width="310" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="YmAx3Wk3M9Wkv32GOvmK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="YmAx3Wk3M9Wkv32GOvmK-12" target="YmAx3Wk3M9Wkv32GOvmK-13">
+        <mxCell id="YmAx3Wk3M9Wkv32GOvmK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=ERoneToMany;endFill=0;startArrow=ERmandOne;startFill=0;endSize=10;" edge="1" parent="1" source="YmAx3Wk3M9Wkv32GOvmK-12" target="YmAx3Wk3M9Wkv32GOvmK-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YmAx3Wk3M9Wkv32GOvmK-12" value="Zaposlenik" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
@@ -103,6 +103,26 @@
         </mxCell>
         <mxCell id="YmAx3Wk3M9Wkv32GOvmK-33" value="&lt;b&gt;sifra radnog sata&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="310" y="870" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YmAx3Wk3M9Wkv32GOvmK-36" value="odrađuje" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="620" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YmAx3Wk3M9Wkv32GOvmK-37" value="je odrađen od" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="620" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YmAx3Wk3M9Wkv32GOvmK-40" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="300" y="620" as="sourcePoint" />
+            <mxPoint x="240" y="620" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YmAx3Wk3M9Wkv32GOvmK-41" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="70" y="619.52" as="sourcePoint" />
+            <mxPoint x="130" y="620" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
