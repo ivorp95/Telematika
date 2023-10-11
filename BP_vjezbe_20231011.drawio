@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T18:01:44.150Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="LF8tiOrQv-FQbW9MzodQ" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T18:19:06.818Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="EpXpTwaSJPJQxyqddhnp" version="22.0.4" type="github">
   <diagram name="Page-1" id="XmXVr0m_O3OawCJsEPbr">
-    <mxGraphModel dx="830" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1048" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -160,6 +160,129 @@
         </mxCell>
         <mxCell id="DkcUDRgrnolismWW7WIm-50" value="agregirani tipovi entiteta imaju slozeni primarni kljuc&amp;nbsp;&lt;br&gt;sastavljen od kljuceve od vanjskih&lt;br&gt;ARTIKAL NA NARUDBI (SIFRA ARTIKLA (PK, FK1), BROJ NARUDBE (PK, FK2))" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="710" y="740" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-51" value="1. ZADATAK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="375" y="8" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-52" value="2. ZADATAK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="940" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="DkcUDRgrnolismWW7WIm-53" target="DkcUDRgrnolismWW7WIm-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-53" value="RADNIK" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="DkcUDRgrnolismWW7WIm-54" target="DkcUDRgrnolismWW7WIm-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-54" value="POTROSNI&lt;br&gt;MATERIJAL" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="1400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-55" value="&lt;b&gt;&lt;u&gt;MATICNI BROJ&lt;/u&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1230" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="DkcUDRgrnolismWW7WIm-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-56" value="NAZIV RADNOG MIJESTA" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1380" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="DkcUDRgrnolismWW7WIm-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-57" value="PREZIME" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1330" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="DkcUDRgrnolismWW7WIm-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-58" value="IME" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1280" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="DkcUDRgrnolismWW7WIm-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="809" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-63" value="&lt;b&gt;&lt;u&gt;SIFRA MATERIJALA&lt;/u&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1141" y="1460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="DkcUDRgrnolismWW7WIm-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1121" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-65" value="DATUM NABAVE" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1141" y="1610" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="DkcUDRgrnolismWW7WIm-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1121" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-67" value="VRIJEDNOST" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1141" y="1560" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="DkcUDRgrnolismWW7WIm-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1121" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-69" value="NAZIV MATERIJALA" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1141" y="1510" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="DkcUDRgrnolismWW7WIm-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-71" value="DOBAVLJAC" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="1400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-72" value="&lt;b&gt;&lt;u&gt;MATICNI BROJ&lt;/u&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1421" y="1460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="DkcUDRgrnolismWW7WIm-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1401" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-78" value="NAZIV FIRME" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1421" y="1510" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="DkcUDRgrnolismWW7WIm-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1400" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="DkcUDRgrnolismWW7WIm-81" target="DkcUDRgrnolismWW7WIm-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-81" value="ZADUZNICA" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="1170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-84" value="&lt;b&gt;&lt;u&gt;BROJ ZADUZNICE&lt;/u&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1230" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="DkcUDRgrnolismWW7WIm-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1260" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-86" value="DATUM ZADUZENJA" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1280" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="DkcUDRgrnolismWW7WIm-84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1259" y="1210" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
