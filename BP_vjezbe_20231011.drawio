@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T18:19:06.818Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="EpXpTwaSJPJQxyqddhnp" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T18:22:20.113Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="NU3nreeBVK2YAGKoJ-gt" version="22.0.4" type="github">
   <diagram name="Page-1" id="XmXVr0m_O3OawCJsEPbr">
     <mxGraphModel dx="1048" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -167,7 +167,7 @@
         <mxCell id="DkcUDRgrnolismWW7WIm-52" value="2. ZADATAK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="390" y="940" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DkcUDRgrnolismWW7WIm-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="DkcUDRgrnolismWW7WIm-53" target="DkcUDRgrnolismWW7WIm-81">
+        <mxCell id="DkcUDRgrnolismWW7WIm-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;endSize=9;startSize=9;startArrow=ERmandOne;startFill=0;" edge="1" parent="1" source="DkcUDRgrnolismWW7WIm-53" target="DkcUDRgrnolismWW7WIm-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DkcUDRgrnolismWW7WIm-53" value="RADNIK" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
@@ -283,6 +283,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1259" y="1210" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-88" value="otvara" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1148" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcUDRgrnolismWW7WIm-89" value="se otvara od strane" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1148" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
