@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-10-25T18:02:58.926Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="J9clNvJq4qUjnx7ekA3J" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-25T18:10:29.315Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="1eZuwcfBbeENZPDMGbDp" version="22.0.8" type="github">
   <diagram name="Page-1" id="1XuPFhmYRXKau8SyNhNj">
     <mxGraphModel dx="1038" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OReA_GEKuYEwSYurnWoB-1" value="&lt;div style=&quot;&quot; title=&quot;Page 106&quot; class=&quot;page&quot;&gt;,&lt;div style=&quot;background-color: rgb(255, 255, 255);&quot; class=&quot;section&quot;&gt;&lt;div class=&quot;layoutArea&quot;&gt;&lt;div class=&quot;column&quot;&gt;&lt;ul style=&quot;list-style-type: none;&quot;&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;&lt;p&gt;Računi&lt;span style=&quot;font-family: Calibri; color: rgb(237, 125, 49);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: Calibri; font-weight: 700; color: rgb(237, 125, 49);&quot;&gt;BrojRačuna(PK)&lt;/span&gt;,&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri; color: rgb(237, 125, 49);&quot;&gt;DatumRačuna&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri; color: rgb(237, 125, 49);&quot;&gt;, IsporukaNaTemelju,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri; color: rgb(237, 125, 49);&quot;&gt;DatumIsporuke,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri; color: rgb(237, 125, 49);&quot;&gt;VrstaPlaćanja&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;caret-color: rgb(237, 125, 49); color: rgb(237, 125, 49); font-family: Calibri;&quot;&gt;UkupanIznos&lt;/span&gt;&lt;span style=&quot;caret-color: rgb(237, 125, 49); color: rgb(237, 125, 49); font-family: Calibri;&quot;&gt;Računa, MBKupca(FK)&lt;/span&gt;&lt;span style=&quot;font-family: Calibri; color: rgb(237, 125, 49);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: Calibri; color: rgb(237, 125, 49);&quot;&gt;)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;caret-color: rgb(237, 125, 49); color: rgb(237, 125, 49); font-family: Calibri;&quot;&gt;kupac(&lt;/span&gt;NazivKupca, AdresaKupca&lt;span style=&quot;color: rgb(51, 153, 255); border-color: var(--border-color); font-family: Calibri;&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 153, 255); border-color: var(--border-color); font-family: Calibri;&quot;&gt;&lt;u&gt;&lt;b&gt;MatičniBrojKupca(PK), postanskiBroj(FK1)&lt;/b&gt;&lt;/u&gt;)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;Grad( &lt;u&gt;PoštanskiBroj(PK)&lt;/u&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(51, 153, 255); font-family: Calibri;&quot;&gt;, ime&lt;/span&gt;&lt;span style=&quot;font-family: Calibri; color: rgb(51, 153, 255);&quot;&gt;Grada)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;Artikl (&lt;u&gt;NazivArtikla(PK)&lt;/u&gt;,&amp;nbsp;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri; color: rgb(237, 125, 49);&quot;&gt;Količina&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri; color: rgb(237, 125, 49);&quot;&gt;, &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(237, 125, 49); font-family: Calibri;&quot;&gt;JedinicaMjere, Cijena, Iznos,)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;artiklNaRacunu(nazivArtikla(PK,FK1),&amp;nbsp;&lt;span style=&quot;caret-color: rgb(237, 125, 49); color: rgb(237, 125, 49); font-family: Calibri;&quot;&gt;BrojRacuna&lt;/span&gt;&lt;span style=&quot;color: rgb(237, 125, 49); font-family: Calibri;&quot;&gt;(PK,FK2))&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="175" y="528" width="980" height="230" as="geometry" />
+        <mxCell id="OReA_GEKuYEwSYurnWoB-1" value="&lt;div style=&quot;&quot; title=&quot;Page 106&quot; class=&quot;page&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;,&lt;/font&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255);&quot; class=&quot;section&quot;&gt;&lt;div class=&quot;layoutArea&quot;&gt;&lt;div class=&quot;column&quot;&gt;&lt;ul style=&quot;list-style-type: none;&quot;&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;&lt;p&gt;&lt;font color=&quot;#3333ff&quot;&gt;Računi&lt;span style=&quot;font-family: Calibri;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: Calibri; font-weight: 700;&quot;&gt;BrojRačuna(PK)&lt;/span&gt;,&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri;&quot;&gt;DatumRačuna&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri;&quot;&gt;, IsporukaNaTemelju,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri;&quot;&gt;DatumIsporuke,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri;&quot;&gt;VrstaPlaćanja&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;caret-color: rgb(237, 125, 49); font-family: Calibri;&quot;&gt;UkupanIznos&lt;/span&gt;&lt;span style=&quot;caret-color: rgb(237, 125, 49); font-family: Calibri;&quot;&gt;Računa, MBKupca(FK1), nazivArtikla(FK2)&lt;/span&gt;&lt;span style=&quot;font-family: Calibri;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: Calibri;&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;span style=&quot;caret-color: rgb(237, 125, 49); font-family: Calibri;&quot;&gt;kupac(&lt;/span&gt;NazivKupca, AdresaKupca&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri;&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri;&quot;&gt;&lt;u&gt;&lt;b&gt;MatičniBrojKupca(PK), postanskiBroj(FK1)&lt;/b&gt;&lt;/u&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;Grad( &lt;u&gt;PoštanskiBroj(PK)&lt;/u&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri;&quot;&gt;, ime&lt;/span&gt;&lt;span style=&quot;font-family: Calibri;&quot;&gt;Grada)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;Artikl (&lt;u&gt;NazivArtikla(PK)&lt;/u&gt;,&amp;nbsp;&lt;span style=&quot;border-color: var(--border-color); font-family: Calibri;&quot;&gt;, &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: Calibri;&quot;&gt;JedinicaMjere, Cijena,)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;artiklNaRacunu(&lt;u&gt;nazivArtikla(PK,FK1),&amp;nbsp;&lt;span style=&quot;caret-color: rgb(237, 125, 49); font-family: Calibri;&quot;&gt;BrojRacuna&lt;/span&gt;(PK,FK2)&lt;/u&gt;,&amp;nbsp;&lt;span style=&quot;caret-color: rgb(237, 125, 49); font-family: Calibri;&quot;&gt;Količina,&amp;nbsp;&lt;/span&gt;Iznos&lt;span style=&quot;font-family: Calibri;&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="175" y="528" width="1120" height="230" as="geometry" />
         </mxCell>
         <mxCell id="OReA_GEKuYEwSYurnWoB-2" value="racun" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="1000" width="180" height="150" as="geometry" />
+          <mxGeometry x="510" y="1000" width="180" height="240" as="geometry" />
         </mxCell>
         <mxCell id="OReA_GEKuYEwSYurnWoB-3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-2">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -31,7 +31,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OReA_GEKuYEwSYurnWoB-8" value="Row 1" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-6">
+        <mxCell id="OReA_GEKuYEwSYurnWoB-8" value="datumRacuna" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-6">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -62,6 +62,45 @@
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="OReA_GEKuYEwSYurnWoB-73" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-2">
+          <mxGeometry y="150" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OReA_GEKuYEwSYurnWoB-74" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-73">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OReA_GEKuYEwSYurnWoB-75" value="datumIsporuke" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-73">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OReA_GEKuYEwSYurnWoB-76" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-2">
+          <mxGeometry y="180" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OReA_GEKuYEwSYurnWoB-77" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-76">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OReA_GEKuYEwSYurnWoB-78" value="vrstaPlacanja" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-76">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OReA_GEKuYEwSYurnWoB-79" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-2">
+          <mxGeometry y="210" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OReA_GEKuYEwSYurnWoB-80" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-79">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OReA_GEKuYEwSYurnWoB-81" value="ukupanIznos" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-79">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OReA_GEKuYEwSYurnWoB-15" value="kupac" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="1000" width="180" height="150" as="geometry" />
         </mxCell>
@@ -86,7 +125,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OReA_GEKuYEwSYurnWoB-21" value="Row 1" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-19">
+        <mxCell id="OReA_GEKuYEwSYurnWoB-21" value="adresaKupca" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-19">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -99,7 +138,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OReA_GEKuYEwSYurnWoB-24" value="Row 2" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-22">
+        <mxCell id="OReA_GEKuYEwSYurnWoB-24" value="nazivKupca" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-22">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -121,7 +160,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OReA_GEKuYEwSYurnWoB-29" value="grad" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="1000" width="180" height="150" as="geometry" />
+          <mxGeometry x="1110" y="1000" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OReA_GEKuYEwSYurnWoB-30" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-29">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -149,37 +188,11 @@
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OReA_GEKuYEwSYurnWoB-36" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-29">
-          <mxGeometry y="90" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OReA_GEKuYEwSYurnWoB-37" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-36">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OReA_GEKuYEwSYurnWoB-38" value="Row 2" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-36">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OReA_GEKuYEwSYurnWoB-39" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-29">
-          <mxGeometry y="120" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OReA_GEKuYEwSYurnWoB-40" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-39">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OReA_GEKuYEwSYurnWoB-41" value="Row 3" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-39">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="OReA_GEKuYEwSYurnWoB-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OReA_GEKuYEwSYurnWoB-30" target="OReA_GEKuYEwSYurnWoB-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OReA_GEKuYEwSYurnWoB-43" value="artikl" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="1400" width="180" height="150" as="geometry" />
+          <mxGeometry x="510" y="1560" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="OReA_GEKuYEwSYurnWoB-44" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-43">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -202,7 +215,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OReA_GEKuYEwSYurnWoB-49" value="Row 1" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-47">
+        <mxCell id="OReA_GEKuYEwSYurnWoB-49" value="jedinicaMijere" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-47">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -215,26 +228,13 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OReA_GEKuYEwSYurnWoB-52" value="Row 2" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-50">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OReA_GEKuYEwSYurnWoB-53" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-43">
-          <mxGeometry y="120" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OReA_GEKuYEwSYurnWoB-54" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-53">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OReA_GEKuYEwSYurnWoB-55" value="Row 3" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-53">
+        <mxCell id="OReA_GEKuYEwSYurnWoB-52" value="jedinicnaCijena" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-50">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OReA_GEKuYEwSYurnWoB-58" value="atiklNaRacunu" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="510" y="1200" width="180" height="150" as="geometry" />
+          <mxGeometry x="510" y="1360" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="OReA_GEKuYEwSYurnWoB-59" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-58">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -270,7 +270,7 @@
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OReA_GEKuYEwSYurnWoB-67" value="Row 3" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-65">
+        <mxCell id="OReA_GEKuYEwSYurnWoB-67" value="kolicina" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-65">
           <mxGeometry x="60" width="120" height="30" as="geometry">
             <mxRectangle width="120" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -283,7 +283,7 @@
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OReA_GEKuYEwSYurnWoB-70" value="Row 4" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-68">
+        <mxCell id="OReA_GEKuYEwSYurnWoB-70" value="iznos" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;" vertex="1" parent="OReA_GEKuYEwSYurnWoB-68">
           <mxGeometry x="60" width="120" height="30" as="geometry">
             <mxRectangle width="120" height="30" as="alternateBounds" />
           </mxGeometry>
